@@ -1,0 +1,65 @@
+.test-interface-container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.question-card {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.question-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.result-card {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.timer {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.MuiLinearProgress-root {
+    height: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.question-status {
+    margin: 20px 0;
+}
+
+.status-button {
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+}
+
+.status-button.visited {
+    background-color: #4caf50; /* Green for visited */
+    color: white;
+}
+
+.status-button.unvisited {
+    background-color: #f44336; /* Red for unvisited */
+    color: white;
+}

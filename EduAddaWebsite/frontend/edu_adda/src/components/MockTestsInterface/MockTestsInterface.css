@@ -1,0 +1,107 @@
+/* MockTestsInterface.css */
+
+.container {
+    margin-top: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px; /* Ensures navbar does not stick to the top */
+}
+
+.heading {
+    background-color: #1976d2; /* Blue background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 10;
+}
+
+.test-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 800px; /* Increased width */
+}
+
+.test-interface-container {
+    margin-top: 20px;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.result-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.timer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.question-card {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question-image {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.question-status {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.question-number {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin: 2px;
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.answered {
+    background-color: #4caf50;
+}
+
+.unanswered {
+    background-color: #f44336;
+}
+
+.visited {
+    border: 2px solid white;
+}

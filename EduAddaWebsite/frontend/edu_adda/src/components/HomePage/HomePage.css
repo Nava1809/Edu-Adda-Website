@@ -1,0 +1,120 @@
+.background {
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.home-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.intro-section {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  margin-top: 20px;
+}
+
+.net-section {
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+
+.set-section {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+.offer-section {
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+}
+
+.courses-section {
+  background: linear-gradient(to right, #ff9a9e, #fecfef);
+}
+
+.side-by-side-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+blockquote {
+  margin-left: 20px;
+  border-left: 5px solid #2196f3;
+  padding-left: 15px;
+  font-style: italic;
+  color: #555;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.course-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Slick Carousel Styles */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slider-container {
+  position: relative; /* Ensure the dots are positioned inside this container */
+  margin-bottom: 40px;
+}
+
+.small-slider-container {
+  max-width: 600px; /* Adjust the max-width for the smaller slider */
+  margin: 0 auto; /* Center the smaller slider */
+}
+
+.slick-slide {
+  padding: 10px;
+  margin: auto;
+  overflow: hidden; /* Ensure no extra content is visible */
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 10px; /* Adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex !important; /* Ensure dots are displayed */
+  justify-content: center;
+  padding: 0;
+}
+
+.slick-dots li {
+  margin: 0 5px; /* Adjust spacing between dots */
+}
+
+.slick-dots li button {
+  width: 10px; /* Adjust size of the dots */
+  height: 10px; /* Adjust size of the dots */
+}
+
+.slick-dots li button:before {
+  color: #2196f3; /* Dot color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ffffff; /* Active dot color */
+}

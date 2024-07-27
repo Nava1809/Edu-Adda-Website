@@ -1,0 +1,29 @@
+/* UserDashboard.css */
+.dashboard-container {
+    padding: 20px;
+}
+
+.chart-container {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.performance-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.performance-item {
+    background: #f5f5f5;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.Heading{
+    text-align: center;
+
+    margin-top: 10px;
+    background-color: aqua;
+}

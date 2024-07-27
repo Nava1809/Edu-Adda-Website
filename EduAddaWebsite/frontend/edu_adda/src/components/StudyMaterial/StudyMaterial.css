@@ -1,0 +1,50 @@
+.study-material-container {
+    margin-top: 20px; /* Added margin to the container to push content down from the top */
+  }
+  
+  .controls-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-select {
+    margin-left: 10px;
+    min-width: 200px;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between cards */
+  }
+  
+  .study-material-card {
+    width: 100%;
+    max-width: 100%; /* Ensure the card takes full width */
+    margin-bottom: 20px;
+  }
+  
+  .card-content {
+    background-color: #f5f5f5; /* Light grey background for the title */
+    text-align: center; /* Center the title */
+  }
+  
+  .card-title {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .card-actions {
+    justify-content: center; /* Center the View button */
+  }
+  
+  .heading-container {
+    width: 100%;
+    background-color: grey; /* Light grey background for the heading */
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  

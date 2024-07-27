@@ -1,0 +1,51 @@
+/* Navbar.css */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex; /* Ensure flex display */
+  align-items: center; /* Vertically center the items */
+  cursor: pointer;
+}
+
+.logo-image {
+  height: 40px; /* Set a fixed height for consistency */
+  margin-right: 10px; /* Add space between the image and text */
+}
+
+.logo-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #3f51b5; /* Adjust color as needed */
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-buttons .MuiButton-root,
+.nav-buttons .MuiIconButton-root {
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .nav-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-buttons .MuiButton-root,
+  .nav-buttons .MuiIconButton-root {
+    margin: 5px 0;
+  }
+}
+.username-text {
+  margin-left: 8px;
+  font-weight: bold;
+  color: #3f51b5;
+}
